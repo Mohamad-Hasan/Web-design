@@ -1,0 +1,279 @@
+
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #303D72;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  /*margin-top: 2rem;*/
+  margin-bottom: 4rem;
+  background-image: radial-gradient(#303D72, #182456);
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+
+}
+.carousel-caption p {
+  font-size: 1.3em;
+}
+.carousel-inner{
+  width:100%;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 25rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}   
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Bump up size of carousel content */
+/*@media (min-width: 40em) {
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+*/
+
+.fImages {
+  height: auto;
+  max-width: 100%;
+ }
+
+.hdiv{
+  font-family: 'Pacifico', cursive;
+}
+
+.btn-primary:link{
+  background-color: #515d8f;
+}
+.btn-primary:visited{
+  background-color:#515d8f;
+}
+.btn-primary:hover{
+  background-color:#515d8f;
+}
+.btn-primary:active{
+  background-color:#515d8f;
+}
+.textlink:link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #515d8f;
+  font-size: 1.1em;
+}
+.textlink:visited{
+  text-decoration: none;
+  font-weight: 500;
+  color: #515d8f;
+}
+.textlink:hover{
+ text-decoration: none;
+ font-weight: 500;
+ color: #111;
+
+}
+.nav-item {
+
+  line-height: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
+}
+
+.navbar{
+  background-color: #182456;
+  line-height: 45px;
+}
+.nav-link{
+  color:#fff;
+  font-size: 1.1em;
+  font-weight: 600;
+ 
+}
+.navbar-brand{
+  color:#fff;
+  font-size: 1em;
+  font-family: 'Piedra', cursive;
+}
+.contactlink{
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.1em;
+}
+.contactlink:hover{
+  color:#515d8f;
+
+}
+.contact-head{
+  font-size: 2em;
+}
+
+
+.footer {
+  background-color: #182456;
+  color:#fff;
+}
+
+
+.masthead {
+  padding-top: calc(3rem + 70px);
+  padding-bottom: 3rem;
+}
+
+.masthead .masthead-avatar {
+  width: 14rem;
+}
+
+.bg-image-full {
+  background: #fff url("../images/med.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.footerhr{
+  background-color: #fff;
+  width: 60%;
+}
+
+.infolink{
+  color: #182456;
+  font-size: 1.3em;
+}
+.infolink:hover{
+  text-decoration: none;
+  background-color: #182456;
+  color: #fff;
+  border-radius: 5px;
+  
+}
+
+section{
+  background-color: rgba(24, 36, 86, .6);
+  border-radius: 30px;
+  color: #fff;
+  margin: 0 1em 2em 1em;
+  min-height: 20em;
+
+}
+
+.cerbtn:link{
+  text-decoration: none;
+  font-size: 1.2em;
+  background-color:  rgba(24, 36, 86);
+  margin: 1em;
+  padding: .6em;
+  border-radius: 10px;
+}
+
+.cerbtn:hover{
+  text-decoration: none;
+  font-size: 1.2em;
+  color:#fff;
+  margin: 1em;
+  border-radius: 20px;
+
+}
+
+.card{
+  border:0;
+  padding: 0;
+}
+
+
+.cardimage{
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.cardimage:hover{
+   box-shadow: 0 16px 20px 0 rgba(0,0,0,0.5);
+}
+
+.contactheader{
+ font-weight: 500;
+ font-size: 1.5em;
+ letter-spacing: 2px; 
+}
